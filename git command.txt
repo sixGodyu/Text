@@ -1,6 +1,8 @@
 git init 代表初始化 git 仓库，git status  查看状态，
 git add 文件    文件等待被提交   git rm --cached 这个命令去移除这个缓存git commit -m 'first commit'  commit 是提交的意思，-m 代表是提交信息，执
 git log 命令可以查看所有产生的 commit 记录，
+git status	显示状态
+
 git branch
 t checkout a  			切换到 a 分支上才行
 git checkout -b a		新建一个a分支，并且自动切换到a分支
@@ -18,3 +20,6 @@ git remote add origin git@github.com:stormzhang/test.git
 添加一个远程仓库，他的地址是 git@github.com:stormzhang/test.git ，而 origin 是给这个项目的远程仓库起的名字
 git remote -v		查看我们当前项目有哪些远程仓库可以执行如下命令
 git push origin master	  本地的仓库就可以向远程仓库进行代码提交了
+
+git config --global user.name "sixGodyu"
+git config --global user.email "2113453808@qq.com"
